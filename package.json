@@ -1,0 +1,41 @@
+{
+  "name": "next-playground",
+  "version": "1.0.0",
+  "description": "NextJS playground project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessiosferro/nextjs-playground.git"
+  },
+  "keywords": [
+    "NextJS",
+    "Playground",
+    "Alessio Sferro",
+    "React"
+  ],
+  "author": "Alessio Sferro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessiosferro/nextjs-playground/issues"
+  },
+  "homepage": "https://github.com/alessiosferro/nextjs-playground#readme",
+  "dependencies": {
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tsconfig/next": "^1.0.3",
+    "@types/node": "^18.8.3",
+    "@types/react": "^18.0.21",
+    "eslint": "^8.25.0",
+    "eslint-config-next": "^12.3.1",
+    "typescript": "^4.8.4"
+  }
+}
